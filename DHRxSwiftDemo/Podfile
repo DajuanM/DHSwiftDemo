@@ -1,0 +1,13 @@
+
+platform :ios, '9.0'
+
+target 'DHRxSwiftDemo' do
+  
+  use_frameworks!
+  
+  pod 'RxSwift',    '~> 3.0'
+  pod 'RxCocoa',    '~> 3.0'
+  pod 'ObjectMapper'
+  pod 'SwiftyJSON'
+  pod 'Moya/RxSwift'
+end
