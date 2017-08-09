@@ -9,6 +9,7 @@
 import UIKit
 import ObjectMapper
 import SwiftyJSON
+import Kingfisher
 
 let SCREEN_WIDTH = UIScreen.main.bounds.width
 let SCREEN_HEIGHT = UIScreen.main.bounds.height
@@ -54,6 +55,7 @@ extension ViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         let model = dataArr[indexPath.row]
         cell.textLabel?.text = model.authInfo
+        cell.imageView?.kf.setImage(with: URL(string: model.img!))
         return cell
     }
 }
