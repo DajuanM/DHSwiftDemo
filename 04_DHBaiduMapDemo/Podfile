@@ -1,0 +1,8 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target '04_DHBaiduMapDemo' do
+
+  pod 'BaiduMapKit' #百度地图SDK
+
+end
