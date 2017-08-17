@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		164147BA1F428B36000D3CB1 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 164147B91F428B36000D3CB1 /* Kingfisher.framework */; };
 		1658FFB91F3950DC00B5EA4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1658FFB81F3950DC00B5EA4B /* AppDelegate.swift */; };
 		1658FFBB1F3950DC00B5EA4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1658FFBA1F3950DC00B5EA4B /* ViewController.swift */; };
 		1658FFBE1F3950DC00B5EA4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1658FFBC1F3950DC00B5EA4B /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		164147B91F428B36000D3CB1 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = "../../../Library/Developer/Xcode/DerivedData/DHAlamofireDemo-eshhwbsmwhcmmqcaolofrzuvvwsx/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework"; sourceTree = "<group>"; };
 		1658FFB51F3950DC00B5EA4B /* DHAlamofireDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHAlamofireDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1658FFB81F3950DC00B5EA4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1658FFBA1F3950DC00B5EA4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				164147BA1F428B36000D3CB1 /* Kingfisher.framework in Frameworks */,
 				1658FFF01F39A8DB00B5EA4B /* SwiftyJSON.framework in Frameworks */,
 				1658FFEE1F39A8D800B5EA4B /* ObjectMapper.framework in Frameworks */,
 				1658FFE91F3954C000B5EA4B /* Alamofire.framework in Frameworks */,
@@ -150,6 +153,7 @@
 		9A0D107B55D76A3781260773 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				164147B91F428B36000D3CB1 /* Kingfisher.framework */,
 				1658FFEF1F39A8DB00B5EA4B /* SwiftyJSON.framework */,
 				1658FFED1F39A8D800B5EA4B /* ObjectMapper.framework */,
 				1658FFE81F3954C000B5EA4B /* Alamofire.framework */,

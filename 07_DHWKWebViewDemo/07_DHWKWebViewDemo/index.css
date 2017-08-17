@@ -1,0 +1,16 @@
+
+.btn {
+    display: block;
+    margin: 200px auto;
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+p {
+    margin: 200px auto;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+}
