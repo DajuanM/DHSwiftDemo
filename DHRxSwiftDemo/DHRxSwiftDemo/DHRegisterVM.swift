@@ -12,6 +12,9 @@ import RxCocoa
 /// 最小字符数
 let charactersCount = 6
 
+
+
+
 class DHRegisterVM {
     let name = Variable<String>("")
     let psd = Variable<String>("")
