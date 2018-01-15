@@ -1,29 +1,25 @@
 //
 //  AppDelegate.swift
-//  04_DHBaiduMapDemo
+//  10_DHTabBarDemo
 //
-//  Created by swartz006 on 2017/8/11.
-//  Copyright © 2017年 denghui. All rights reserved.
+//  Created by zipingfang on 2018/1/9.
+//  Copyright © 2018年 com.denghui.demo. All rights reserved.
 //
 
 import UIKit
 
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    
+
     var window: UIWindow?
-    var mapManager: BMKMapManager?
+
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-         // 初始化 BMKMapManager
-        mapManager = BMKMapManager()
-        // 如果要关注网络及授权验证事件，请设定generalDelegate参数
-        let ret = mapManager?.start("oKUDtP5dYk6UscA3gBGAT3KCHiG67kyF", generalDelegate: nil)
-        if !ret! {
-            print("manager start fail")
-        }
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let tabBarC = DHTabBarController()
+        window?.rootViewController = tabBarC
+        window?.makeKeyAndVisible()
         return true
     }
 

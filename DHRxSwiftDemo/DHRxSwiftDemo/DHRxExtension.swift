@@ -32,3 +32,17 @@ extension Reactive where Base: UILabel {
         })
     }
 }
+
+extension Reactive where Base: UIButton {
+    var enableResult: UIBindingObserver<Base, Bool> {
+        return UIBindingObserver(UIElement: base, binding: { (button, result) in
+            if result {
+                button.backgroundColor = UIColor.red
+                button.isUserInteractionEnabled = true
+            }else{
+                button.backgroundColor = UIColor.gray
+                button.isUserInteractionEnabled = false
+            }
+        })
+    }
+}

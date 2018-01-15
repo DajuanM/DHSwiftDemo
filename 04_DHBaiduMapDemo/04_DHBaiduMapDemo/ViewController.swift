@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, BMKMapViewDelegate, BMKLocationServiceDelegate {
+class ViewController: UIViewController {
     var mapView: BMKMapView!
     var locService: BMKLocationService!
     override func viewDidLoad() {
@@ -17,6 +17,7 @@ class ViewController: UIViewController, BMKMapViewDelegate, BMKLocationServiceDe
         mapView = BMKMapView(frame: view.bounds)
         view.addSubview(mapView)
         
+        locService = BMKLocationService()
          // 设置定位精确度，默认：kCLLocationAccuracyBest
         /*
          设置位置精确度有很多可选值，大致上包括以下几条：
@@ -27,15 +28,13 @@ class ViewController: UIViewController, BMKMapViewDelegate, BMKLocationServiceDe
          kCLLocationAccuracyKilometer:千米误差范围
          kCLLocationAccuracyThreeKilometers:三千米误差范围
          */
-        BMKLocationService.setLocationDesiredAccuracy(kCLLocationAccuracyBest)
-        
-        
+//        BMKLocationService.setLocationDesiredAccuracy(kCLLocationAccuracyBest)
+        locService.desiredAccuracy = kCLLocationAccuracyBest
         //指定最小距离更新(米)，默认：kCLDistanceFilterNone
-        BMKLocationService.setLocationDistanceFilter(10)
-        locService = BMKLocationService()
+//        BMKLocationService.setLocationDistanceFilter(10)
+        locService.distanceFilter = 10
         locService.startUserLocationService()
-        mapView.showsUserLocation = false
-        
+        mapView.showsUserLocation = true
         //设置位置跟踪态
         /*
          设置位置跟踪态也有以下几种：
@@ -48,6 +47,25 @@ class ViewController: UIViewController, BMKMapViewDelegate, BMKLocationServiceDe
         
         //显示定位图层
         mapView.showsUserLocation = true
+        
+        
+        //画线
+        addLine()
+    }
+    
+    func addLine() {
+        // 添加折线覆盖物 在北京
+        var coor: [CLLocationCoordinate2D] = []
+        let lat = [39.832136, 39.832136, 39.902136, 39.902136]
+        let long = [116.34095, 116.42095, 116.42095, 116.44095]
+        for index in 0..<4 {
+            var loc = CLLocationCoordinate2D()
+            loc.latitude = lat[index]
+            loc.longitude = long[index]
+            coor.append(loc)
+        }
+        let polyLine = BMKPolyline(coordinates: &coor, count: 4)
+        mapView.add(polyLine)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -64,16 +82,50 @@ class ViewController: UIViewController, BMKMapViewDelegate, BMKLocationServiceDe
         locService.delegate = nil
     }
     
-    //MARK: BMKMapViewDelegate
+}
+
+//MARK: BMKMapViewDelegate
+extension ViewController: BMKMapViewDelegate {
+    func mapView(_ mapView: BMKMapView!, viewFor annotation: BMKAnnotation!) -> BMKAnnotationView! {
+        if annotation.isKind(of: BMKPointAnnotation.self) {
+            var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: "Annotation")
+            if annotationView == nil {
+                annotationView = BMKPinAnnotationView(annotation: annotation, reuseIdentifier: "Annotation")
+            }
+            annotationView?.tintColor = UIColor.purple
+            annotationView?.canShowCallout = true //设置气泡可以弹出
+            annotationView?.enabled3D = true //设置3D效果
+            annotationView?.isDraggable = true //设置标注可以拖动
+            return annotationView
+        }
+        return nil
+    }
     
-    //MARK: BMKLocationServiceDelegate
+    func mapView(_ mapView: BMKMapView!, viewFor overlay: BMKOverlay!) -> BMKOverlayView! {
+        if overlay.isKind(of: BMKPolyline.self) {
+            let overlayView = BMKPolylineView(overlay: overlay)
+            overlayView?.strokeColor = UIColor.red
+            overlayView?.lineWidth = 2
+            return overlayView
+        }
+        return nil
+    }
+}
+
+//MARK: BMKLocationServiceDelegate
+extension ViewController: BMKLocationServiceDelegate {
     //处理方向变更信息
-//    func didUpdateUserHeading(_ userLocation: BMKUserLocation!) {
-//        mapView.updateLocationData(userLocation)
-//    }
+    //    func didUpdateUserHeading(_ userLocation: BMKUserLocation!) {
+    //        mapView.updateLocationData(userLocation)
+    //    }
     //处理位置坐标更新
     func didUpdate(_ userLocation: BMKUserLocation!) {
         mapView.updateLocationData(userLocation)
+        let annotation = BMKPointAnnotation()
+        annotation.coordinate = userLocation.location.coordinate
+        annotation.title = "我的位置"
+        mapView.addAnnotation(annotation)
+        
     }
 }
 

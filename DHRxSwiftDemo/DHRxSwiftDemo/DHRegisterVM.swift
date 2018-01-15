@@ -13,8 +13,6 @@ import RxCocoa
 let charactersCount = 6
 
 
-
-
 class DHRegisterVM {
     let name = Variable<String>("")
     let psd = Variable<String>("")
