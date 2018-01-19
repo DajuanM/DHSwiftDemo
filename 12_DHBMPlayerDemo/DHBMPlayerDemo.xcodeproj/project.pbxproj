@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6897C17A4D55C7896D88EDD3 /* Pods_DHBMPlayerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757069007B377E4448D2CBF5 /* Pods_DHBMPlayerDemo.framework */; };
+		70E15C962011FA0700BE61AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E15C952011FA0700BE61AD /* AppDelegate.swift */; };
+		70E15C982011FA0700BE61AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E15C972011FA0700BE61AD /* ViewController.swift */; };
+		70E15C9B2011FA0700BE61AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E15C992011FA0700BE61AD /* Main.storyboard */; };
+		70E15C9D2011FA0700BE61AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70E15C9C2011FA0700BE61AD /* Assets.xcassets */; };
+		70E15CA02011FA0700BE61AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E15C9E2011FA0700BE61AD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		70E15C922011FA0700BE61AD /* DHBMPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHBMPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E15C952011FA0700BE61AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70E15C972011FA0700BE61AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70E15C9A2011FA0700BE61AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70E15C9C2011FA0700BE61AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70E15C9F2011FA0700BE61AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70E15CA12011FA0700BE61AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		757069007B377E4448D2CBF5 /* Pods_DHBMPlayerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DHBMPlayerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		809852C5A5FC31639CAE8130 /* Pods-DHBMPlayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHBMPlayerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHBMPlayerDemo/Pods-DHBMPlayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B854285659D1C66F2492941A /* Pods-DHBMPlayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHBMPlayerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DHBMPlayerDemo/Pods-DHBMPlayerDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70E15C8F2011FA0700BE61AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6897C17A4D55C7896D88EDD3 /* Pods_DHBMPlayerDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F2F582FAE2534A8B439AAF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				757069007B377E4448D2CBF5 /* Pods_DHBMPlayerDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70E15C892011FA0700BE61AD = {
+			isa = PBXGroup;
+			children = (
+				70E15C942011FA0700BE61AD /* DHBMPlayerDemo */,
+				70E15C932011FA0700BE61AD /* Products */,
+				8A9AAF6D69058064C625CE5F /* Pods */,
+				2F2F582FAE2534A8B439AAF6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		70E15C932011FA0700BE61AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70E15C922011FA0700BE61AD /* DHBMPlayerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70E15C942011FA0700BE61AD /* DHBMPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				70E15C952011FA0700BE61AD /* AppDelegate.swift */,
+				70E15C972011FA0700BE61AD /* ViewController.swift */,
+				70E15C992011FA0700BE61AD /* Main.storyboard */,
+				70E15C9C2011FA0700BE61AD /* Assets.xcassets */,
+				70E15C9E2011FA0700BE61AD /* LaunchScreen.storyboard */,
+				70E15CA12011FA0700BE61AD /* Info.plist */,
+			);
+			path = DHBMPlayerDemo;
+			sourceTree = "<group>";
+		};
+		8A9AAF6D69058064C625CE5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				809852C5A5FC31639CAE8130 /* Pods-DHBMPlayerDemo.debug.xcconfig */,
+				B854285659D1C66F2492941A /* Pods-DHBMPlayerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70E15C912011FA0700BE61AD /* DHBMPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70E15CA42011FA0700BE61AD /* Build configuration list for PBXNativeTarget "DHBMPlayerDemo" */;
+			buildPhases = (
+				F919B55E0A3508A3BF3D3EDE /* [CP] Check Pods Manifest.lock */,
+				70E15C8E2011FA0700BE61AD /* Sources */,
+				70E15C8F2011FA0700BE61AD /* Frameworks */,
+				70E15C902011FA0700BE61AD /* Resources */,
+				CA41B187EAF3CF3F14BFB922 /* [CP] Embed Pods Frameworks */,
+				B2C796B7B853CEC7254DF608 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DHBMPlayerDemo;
+			productName = DHBMPlayerDemo;
+			productReference = 70E15C922011FA0700BE61AD /* DHBMPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70E15C8A2011FA0700BE61AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = com.denghui.demo;
+				TargetAttributes = {
+					70E15C912011FA0700BE61AD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 70E15C8D2011FA0700BE61AD /* Build configuration list for PBXProject "DHBMPlayerDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70E15C892011FA0700BE61AD;
+			productRefGroup = 70E15C932011FA0700BE61AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70E15C912011FA0700BE61AD /* DHBMPlayerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70E15C902011FA0700BE61AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E15CA02011FA0700BE61AD /* LaunchScreen.storyboard in Resources */,
+				70E15C9D2011FA0700BE61AD /* Assets.xcassets in Resources */,
+				70E15C9B2011FA0700BE61AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2C796B7B853CEC7254DF608 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DHBMPlayerDemo/Pods-DHBMPlayerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA41B187EAF3CF3F14BFB922 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DHBMPlayerDemo/Pods-DHBMPlayerDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BMPlayer/BMPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DHBMPlayerDemo/Pods-DHBMPlayerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F919B55E0A3508A3BF3D3EDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DHBMPlayerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70E15C8E2011FA0700BE61AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E15C982011FA0700BE61AD /* ViewController.swift in Sources */,
+				70E15C962011FA0700BE61AD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		70E15C992011FA0700BE61AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70E15C9A2011FA0700BE61AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70E15C9E2011FA0700BE61AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70E15C9F2011FA0700BE61AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70E15CA22011FA0700BE61AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70E15CA32011FA0700BE61AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70E15CA52011FA0700BE61AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 809852C5A5FC31639CAE8130 /* Pods-DHBMPlayerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V46UE7EUZ;
+				INFOPLIST_FILE = DHBMPlayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.denghui.DHBMPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70E15CA62011FA0700BE61AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B854285659D1C66F2492941A /* Pods-DHBMPlayerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V46UE7EUZ;
+				INFOPLIST_FILE = DHBMPlayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.denghui.DHBMPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70E15C8D2011FA0700BE61AD /* Build configuration list for PBXProject "DHBMPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E15CA22011FA0700BE61AD /* Debug */,
+				70E15CA32011FA0700BE61AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70E15CA42011FA0700BE61AD /* Build configuration list for PBXNativeTarget "DHBMPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E15CA52011FA0700BE61AD /* Debug */,
+				70E15CA62011FA0700BE61AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70E15C8A2011FA0700BE61AD /* Project object */;
+}
