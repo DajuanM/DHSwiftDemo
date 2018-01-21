@@ -13,6 +13,9 @@
 		70E15C9B2011FA0700BE61AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E15C992011FA0700BE61AD /* Main.storyboard */; };
 		70E15C9D2011FA0700BE61AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70E15C9C2011FA0700BE61AD /* Assets.xcassets */; };
 		70E15CA02011FA0700BE61AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E15C9E2011FA0700BE61AD /* LaunchScreen.storyboard */; };
+		DF71FBB2201224850074820D /* DHVedioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF71FBB0201224850074820D /* DHVedioVC.swift */; };
+		DF71FBB520122B7F0074820D /* DHVedioListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF71FBB420122B7F0074820D /* DHVedioListVC.swift */; };
+		DF71FBB720122C290074820D /* DHVedioListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF71FBB620122C290074820D /* DHVedioListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		757069007B377E4448D2CBF5 /* Pods_DHBMPlayerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DHBMPlayerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		809852C5A5FC31639CAE8130 /* Pods-DHBMPlayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHBMPlayerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHBMPlayerDemo/Pods-DHBMPlayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B854285659D1C66F2492941A /* Pods-DHBMPlayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHBMPlayerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DHBMPlayerDemo/Pods-DHBMPlayerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DF71FBB0201224850074820D /* DHVedioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHVedioVC.swift; sourceTree = "<group>"; };
+		DF71FBB420122B7F0074820D /* DHVedioListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHVedioListVC.swift; sourceTree = "<group>"; };
+		DF71FBB620122C290074820D /* DHVedioListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHVedioListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,9 @@
 			children = (
 				70E15C952011FA0700BE61AD /* AppDelegate.swift */,
 				70E15C972011FA0700BE61AD /* ViewController.swift */,
+				DF71FBB0201224850074820D /* DHVedioVC.swift */,
+				DF71FBB420122B7F0074820D /* DHVedioListVC.swift */,
+				DF71FBB620122C290074820D /* DHVedioListTableViewCell.swift */,
 				70E15C992011FA0700BE61AD /* Main.storyboard */,
 				70E15C9C2011FA0700BE61AD /* Assets.xcassets */,
 				70E15C9E2011FA0700BE61AD /* LaunchScreen.storyboard */,
@@ -221,7 +230,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF71FBB720122C290074820D /* DHVedioListTableViewCell.swift in Sources */,
 				70E15C982011FA0700BE61AD /* ViewController.swift in Sources */,
+				DF71FBB2201224850074820D /* DHVedioVC.swift in Sources */,
+				DF71FBB520122B7F0074820D /* DHVedioListVC.swift in Sources */,
 				70E15C962011FA0700BE61AD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -4,5 +4,4 @@ use_frameworks!
 target 'DHBMPlayerDemo' do
   
   pod 'BMPlayer', '~> 1.0.0'
-
 end
