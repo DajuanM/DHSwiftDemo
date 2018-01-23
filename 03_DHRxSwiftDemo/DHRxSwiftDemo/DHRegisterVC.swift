@@ -95,7 +95,7 @@ class DHRegisterVC: UIViewController {
         observeStr.value = "3"
         
         let publishSub = PublishSubject<String>()
-        Observable.of(PublishSubject).subscribe({ (str) in
+        Observable.of(PublishSubject<Any>()).subscribe({ (str) in
             
         }).addDisposableTo(disposeBag)
         
