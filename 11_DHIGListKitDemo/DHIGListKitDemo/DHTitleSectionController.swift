@@ -35,11 +35,9 @@ final class DHTitleSectionController: ListSectionController {
         return CGSize(width: collectionContext!.containerSize.width, height: 50)
     }
 
-
     override func cellForItem(at index: Int) -> UICollectionViewCell {
-//        let cell = collectionContext?.dequeueReusableCell(of: DHTitleCollectionViewCell.self, for: self, at: index) as! DHTitleCollectionViewCell
         let cell = collectionContext?.dequeueReusableCell(withNibName: "DHTitleCollectionViewCell", bundle: nil, for: self, at: index) as! DHTitleCollectionViewCell
-        cell.titleLabel.text = model?.title ?? ""
+        cell.titleLabel.text = "123"
         return cell
     }
 

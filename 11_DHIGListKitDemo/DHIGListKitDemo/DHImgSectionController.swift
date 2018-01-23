@@ -35,7 +35,7 @@ class DHImgSectionController: ListSectionController {
 
     override func cellForItem(at index: Int) -> UICollectionViewCell {
         let cell = collectionContext?.dequeueReusableCell(withNibName: "DHImgCollectionViewCell", bundle: nil, for: self, at: index) as! DHImgCollectionViewCell
-        cell.imgView.backgroundColor = model?.color
+        cell.imgView.backgroundColor = .red
         return cell
     }
 
