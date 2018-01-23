@@ -8,6 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		3801A9D5EE0C7BEBC7F14C59 /* Pods_DHIGListKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF4473A3AF8A70A12E80F6D /* Pods_DHIGListKitDemo.framework */; };
+		7075FC222016D4AC00026FD3 /* DHNewsTopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075FC202016D4AB00026FD3 /* DHNewsTopCollectionViewCell.swift */; };
+		7075FC232016D4AC00026FD3 /* DHNewsTopCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7075FC212016D4AB00026FD3 /* DHNewsTopCollectionViewCell.xib */; };
+		7075FC262016D5EA00026FD3 /* DHNewsContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075FC242016D5EA00026FD3 /* DHNewsContentCollectionViewCell.swift */; };
+		7075FC272016D5EA00026FD3 /* DHNewsContentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7075FC252016D5EA00026FD3 /* DHNewsContentCollectionViewCell.xib */; };
+		7075FC292016D83600026FD3 /* DHNewsSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075FC282016D83600026FD3 /* DHNewsSectionController.swift */; };
+		7075FC2C2016DE6F00026FD3 /* DHNewsBottomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075FC2A2016DE6F00026FD3 /* DHNewsBottomCollectionViewCell.swift */; };
+		7075FC2D2016DE6F00026FD3 /* DHNewsBottomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7075FC2B2016DE6F00026FD3 /* DHNewsBottomCollectionViewCell.xib */; };
+		7075FC302016DF6300026FD3 /* DHSeparatorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075FC2E2016DF6300026FD3 /* DHSeparatorCollectionViewCell.swift */; };
+		7075FC312016DF6300026FD3 /* DHSeparatorCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7075FC2F2016DF6300026FD3 /* DHSeparatorCollectionViewCell.xib */; };
+		7075FC342016E74D00026FD3 /* DHNewsImgsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075FC322016E74D00026FD3 /* DHNewsImgsCollectionViewCell.swift */; };
+		7075FC352016E74D00026FD3 /* DHNewsImgsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7075FC332016E74D00026FD3 /* DHNewsImgsCollectionViewCell.xib */; };
+		7075FC382016F48700026FD3 /* DHNewsImgCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075FC362016F48700026FD3 /* DHNewsImgCollectionViewCell.swift */; };
+		7075FC392016F48700026FD3 /* DHNewsImgCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7075FC372016F48700026FD3 /* DHNewsImgCollectionViewCell.xib */; };
+		7075FC3C2016F61300026FD3 /* DHNewsVedioCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075FC3A2016F61300026FD3 /* DHNewsVedioCollectionViewCell.swift */; };
+		7075FC3D2016F61300026FD3 /* DHNewsVedioCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7075FC3B2016F61300026FD3 /* DHNewsVedioCollectionViewCell.xib */; };
+		7075FC402016F6F200026FD3 /* DHNewsAudioCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075FC3E2016F6F200026FD3 /* DHNewsAudioCollectionViewCell.swift */; };
+		7075FC412016F6F200026FD3 /* DHNewsAudioCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7075FC3F2016F6F200026FD3 /* DHNewsAudioCollectionViewCell.xib */; };
+		7075FC442016F7B900026FD3 /* DHNewsAnswerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075FC422016F7B900026FD3 /* DHNewsAnswerCollectionViewCell.swift */; };
+		7075FC452016F7B900026FD3 /* DHNewsAnswerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7075FC432016F7B900026FD3 /* DHNewsAnswerCollectionViewCell.xib */; };
+		7075FC482016F83C00026FD3 /* DHNewsLinkCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075FC462016F83C00026FD3 /* DHNewsLinkCollectionViewCell.swift */; };
+		7075FC492016F83C00026FD3 /* DHNewsLinkCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7075FC472016F83C00026FD3 /* DHNewsLinkCollectionViewCell.xib */; };
 		DF6F6E92200B53A3008F26F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F6E91200B53A3008F26F9 /* AppDelegate.swift */; };
 		DF6F6E94200B53A3008F26F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F6E93200B53A3008F26F9 /* ViewController.swift */; };
 		DF6F6E97200B53A3008F26F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6F6E95200B53A3008F26F9 /* Main.storyboard */; };
@@ -41,6 +62,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7075FC202016D4AB00026FD3 /* DHNewsTopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHNewsTopCollectionViewCell.swift; sourceTree = "<group>"; };
+		7075FC212016D4AB00026FD3 /* DHNewsTopCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DHNewsTopCollectionViewCell.xib; sourceTree = "<group>"; };
+		7075FC242016D5EA00026FD3 /* DHNewsContentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHNewsContentCollectionViewCell.swift; sourceTree = "<group>"; };
+		7075FC252016D5EA00026FD3 /* DHNewsContentCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DHNewsContentCollectionViewCell.xib; sourceTree = "<group>"; };
+		7075FC282016D83600026FD3 /* DHNewsSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHNewsSectionController.swift; sourceTree = "<group>"; };
+		7075FC2A2016DE6F00026FD3 /* DHNewsBottomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHNewsBottomCollectionViewCell.swift; sourceTree = "<group>"; };
+		7075FC2B2016DE6F00026FD3 /* DHNewsBottomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DHNewsBottomCollectionViewCell.xib; sourceTree = "<group>"; };
+		7075FC2E2016DF6300026FD3 /* DHSeparatorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHSeparatorCollectionViewCell.swift; sourceTree = "<group>"; };
+		7075FC2F2016DF6300026FD3 /* DHSeparatorCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DHSeparatorCollectionViewCell.xib; sourceTree = "<group>"; };
+		7075FC322016E74D00026FD3 /* DHNewsImgsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHNewsImgsCollectionViewCell.swift; sourceTree = "<group>"; };
+		7075FC332016E74D00026FD3 /* DHNewsImgsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DHNewsImgsCollectionViewCell.xib; sourceTree = "<group>"; };
+		7075FC362016F48700026FD3 /* DHNewsImgCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHNewsImgCollectionViewCell.swift; sourceTree = "<group>"; };
+		7075FC372016F48700026FD3 /* DHNewsImgCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DHNewsImgCollectionViewCell.xib; sourceTree = "<group>"; };
+		7075FC3A2016F61300026FD3 /* DHNewsVedioCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHNewsVedioCollectionViewCell.swift; sourceTree = "<group>"; };
+		7075FC3B2016F61300026FD3 /* DHNewsVedioCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DHNewsVedioCollectionViewCell.xib; sourceTree = "<group>"; };
+		7075FC3E2016F6F200026FD3 /* DHNewsAudioCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHNewsAudioCollectionViewCell.swift; sourceTree = "<group>"; };
+		7075FC3F2016F6F200026FD3 /* DHNewsAudioCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DHNewsAudioCollectionViewCell.xib; sourceTree = "<group>"; };
+		7075FC422016F7B900026FD3 /* DHNewsAnswerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHNewsAnswerCollectionViewCell.swift; sourceTree = "<group>"; };
+		7075FC432016F7B900026FD3 /* DHNewsAnswerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DHNewsAnswerCollectionViewCell.xib; sourceTree = "<group>"; };
+		7075FC462016F83C00026FD3 /* DHNewsLinkCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHNewsLinkCollectionViewCell.swift; sourceTree = "<group>"; };
+		7075FC472016F83C00026FD3 /* DHNewsLinkCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DHNewsLinkCollectionViewCell.xib; sourceTree = "<group>"; };
 		95ACDE28C325EF1F690B1606 /* Pods-DHIGListKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHIGListKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHIGListKitDemo/Pods-DHIGListKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9FF4473A3AF8A70A12E80F6D /* Pods_DHIGListKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DHIGListKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F6A4DCA4BAA08CC7980C6A /* Pods-DHIGListKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHIGListKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DHIGListKitDemo/Pods-DHIGListKitDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +141,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7075FC1F2016D49000026FD3 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7075FC282016D83600026FD3 /* DHNewsSectionController.swift */,
+				7075FC202016D4AB00026FD3 /* DHNewsTopCollectionViewCell.swift */,
+				7075FC212016D4AB00026FD3 /* DHNewsTopCollectionViewCell.xib */,
+				7075FC242016D5EA00026FD3 /* DHNewsContentCollectionViewCell.swift */,
+				7075FC252016D5EA00026FD3 /* DHNewsContentCollectionViewCell.xib */,
+				7075FC2A2016DE6F00026FD3 /* DHNewsBottomCollectionViewCell.swift */,
+				7075FC2B2016DE6F00026FD3 /* DHNewsBottomCollectionViewCell.xib */,
+				7075FC2E2016DF6300026FD3 /* DHSeparatorCollectionViewCell.swift */,
+				7075FC2F2016DF6300026FD3 /* DHSeparatorCollectionViewCell.xib */,
+				7075FC322016E74D00026FD3 /* DHNewsImgsCollectionViewCell.swift */,
+				7075FC332016E74D00026FD3 /* DHNewsImgsCollectionViewCell.xib */,
+				7075FC362016F48700026FD3 /* DHNewsImgCollectionViewCell.swift */,
+				7075FC372016F48700026FD3 /* DHNewsImgCollectionViewCell.xib */,
+				7075FC3A2016F61300026FD3 /* DHNewsVedioCollectionViewCell.swift */,
+				7075FC3B2016F61300026FD3 /* DHNewsVedioCollectionViewCell.xib */,
+				7075FC3E2016F6F200026FD3 /* DHNewsAudioCollectionViewCell.swift */,
+				7075FC3F2016F6F200026FD3 /* DHNewsAudioCollectionViewCell.xib */,
+				7075FC422016F7B900026FD3 /* DHNewsAnswerCollectionViewCell.swift */,
+				7075FC432016F7B900026FD3 /* DHNewsAnswerCollectionViewCell.xib */,
+				7075FC462016F83C00026FD3 /* DHNewsLinkCollectionViewCell.swift */,
+				7075FC472016F83C00026FD3 /* DHNewsLinkCollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
 		AC82C6446AB56E7360E7F6D1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +212,7 @@
 				DF6F6EC7200B55E5008F26F9 /* DHTitleSectionController.swift */,
 				DF6F6EC9200B5BC8008F26F9 /* DHImgSectionController.swift */,
 				DF6F6E95200B53A3008F26F9 /* Main.storyboard */,
+				7075FC1F2016D49000026FD3 /* CollectionViewCell */,
 				DF6F6E98200B53A3008F26F9 /* Assets.xcassets */,
 				DF6F6E9A200B53A3008F26F9 /* LaunchScreen.storyboard */,
 				DF6F6E9D200B53A3008F26F9 /* Info.plist */,
@@ -277,11 +348,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7075FC3D2016F61300026FD3 /* DHNewsVedioCollectionViewCell.xib in Resources */,
+				7075FC2D2016DE6F00026FD3 /* DHNewsBottomCollectionViewCell.xib in Resources */,
 				DF6F6E9C200B53A3008F26F9 /* LaunchScreen.storyboard in Resources */,
+				7075FC312016DF6300026FD3 /* DHSeparatorCollectionViewCell.xib in Resources */,
+				7075FC392016F48700026FD3 /* DHNewsImgCollectionViewCell.xib in Resources */,
 				DF6F6E99200B53A3008F26F9 /* Assets.xcassets in Resources */,
 				DF6F6EC6200B5516008F26F9 /* DHImgCollectionViewCell.xib in Resources */,
+				7075FC272016D5EA00026FD3 /* DHNewsContentCollectionViewCell.xib in Resources */,
+				7075FC492016F83C00026FD3 /* DHNewsLinkCollectionViewCell.xib in Resources */,
+				7075FC352016E74D00026FD3 /* DHNewsImgsCollectionViewCell.xib in Resources */,
 				DF6F6E97200B53A3008F26F9 /* Main.storyboard in Resources */,
 				DF6F6EC2200B550A008F26F9 /* DHTitleCollectionViewCell.xib in Resources */,
+				7075FC452016F7B900026FD3 /* DHNewsAnswerCollectionViewCell.xib in Resources */,
+				7075FC232016D4AC00026FD3 /* DHNewsTopCollectionViewCell.xib in Resources */,
+				7075FC412016F6F200026FD3 /* DHNewsAudioCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,10 +391,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DHIGListKitDemo/Pods-DHIGListKitDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -322,7 +405,7 @@
 		};
 		3A3904A09E0C5DE829CBD665 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -333,10 +416,9 @@
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-DHIGListKitDemo-checkManifestLockResult.txt",
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
 		E0CF45A8A672F626213E5E5B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -360,12 +442,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7075FC292016D83600026FD3 /* DHNewsSectionController.swift in Sources */,
 				DF6F6EC5200B5516008F26F9 /* DHImgCollectionViewCell.swift in Sources */,
+				7075FC3C2016F61300026FD3 /* DHNewsVedioCollectionViewCell.swift in Sources */,
+				7075FC382016F48700026FD3 /* DHNewsImgCollectionViewCell.swift in Sources */,
+				7075FC2C2016DE6F00026FD3 /* DHNewsBottomCollectionViewCell.swift in Sources */,
+				7075FC482016F83C00026FD3 /* DHNewsLinkCollectionViewCell.swift in Sources */,
 				DF6F6E94200B53A3008F26F9 /* ViewController.swift in Sources */,
 				DF6F6E92200B53A3008F26F9 /* AppDelegate.swift in Sources */,
+				7075FC342016E74D00026FD3 /* DHNewsImgsCollectionViewCell.swift in Sources */,
+				7075FC262016D5EA00026FD3 /* DHNewsContentCollectionViewCell.swift in Sources */,
 				DF6F6EC8200B55E5008F26F9 /* DHTitleSectionController.swift in Sources */,
 				DF6F6EC1200B550A008F26F9 /* DHTitleCollectionViewCell.swift in Sources */,
 				DF6F6ECA200B5BC8008F26F9 /* DHImgSectionController.swift in Sources */,
+				7075FC302016DF6300026FD3 /* DHSeparatorCollectionViewCell.swift in Sources */,
+				7075FC402016F6F200026FD3 /* DHNewsAudioCollectionViewCell.swift in Sources */,
+				7075FC222016D4AC00026FD3 /* DHNewsTopCollectionViewCell.swift in Sources */,
+				7075FC442016F7B900026FD3 /* DHNewsAnswerCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,6 +628,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2V46UE7EUZ;
 				INFOPLIST_FILE = DHIGListKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aiden.DHIGListKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -551,6 +645,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2V46UE7EUZ;
 				INFOPLIST_FILE = DHIGListKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aiden.DHIGListKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

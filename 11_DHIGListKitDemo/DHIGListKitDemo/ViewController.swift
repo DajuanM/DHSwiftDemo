@@ -13,7 +13,12 @@ class ViewController: UIViewController {
     lazy var adapter: ListAdapter = {
         return ListAdapter(updater: ListAdapterUpdater(), viewController: self)
     }()
-    let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout())
+    let collectionView: UICollectionView = {
+        let layout = UICollectionViewFlowLayout()
+        layout.estimatedItemSize = CGSize(width: UIScreen.main.bounds.width, height: 40)
+        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        return collectionView
+    }()
     var data = [
         DHTitleModel(title: "123"),
         DHTitleModel(title: "234"),
@@ -40,15 +45,21 @@ class ViewController: UIViewController {
 extension ViewController: ListAdapterDataSource {
 
     func objects(for listAdapter: ListAdapter) -> [ListDiffable] {
-        return data as! [ListDiffable]
+        return [] as [ListDiffable]//data as! [ListDiffable]
     }
 
     func listAdapter(_ listAdapter: ListAdapter, sectionControllerFor object: Any) -> ListSectionController {
-        if object is DHTitleModel {
+        let obj = object as! Int
+        if obj == 1 {
             return DHTitleSectionController()
-        }else {
+        }
+        if obj == 2 {
             return DHImgSectionController()
         }
+        if obj == 3 {
+            return DHNewsSectionController()
+        }
+        return ListSectionController()
     }
 
     func emptyView(for listAdapter: ListAdapter) -> UIView? {

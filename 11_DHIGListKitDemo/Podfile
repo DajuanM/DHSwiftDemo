@@ -4,5 +4,5 @@ use_frameworks!
 target 'DHIGListKitDemo' do
 
   pod 'IGListKit', '~> 3.1.1'
-
+  pod 'SnapKit', '~> 4.0.0'
 end

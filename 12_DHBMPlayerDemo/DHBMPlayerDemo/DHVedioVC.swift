@@ -34,13 +34,6 @@ class DHVedioVC: UIViewController {
             make.left.right.equalToSuperview()
             make.height.equalTo(200)
         }
-        let label = UILabel()
-        label.textColor = .white
-        label.text = "视频"
-        playerView.addSubview(label)
-        label.snp.makeConstraints { (make) in
-            make.center.equalTo(playerView)
-        }
         playerView.delegate = self
         playerView.backBlock = { [unowned self] (isFullScreen) in
             if isFullScreen {

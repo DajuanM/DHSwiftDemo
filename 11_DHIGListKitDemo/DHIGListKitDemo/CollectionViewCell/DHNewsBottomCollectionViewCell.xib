@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DHNewsBottomCollectionViewCell" id="gTV-IL-0wX" customClass="DHNewsBottomCollectionViewCell" customModule="DHIGListKitDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WDT-bL-fFj">
+                        <rect key="frame" x="0.0" y="0.0" width="124.5" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="sie-4k-aMP"/>
+                        </constraints>
+                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="5" maxY="0.0"/>
+                        <state key="normal" title="10" image="c1_icon1">
+                            <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FWa-tf-8Uc">
+                        <rect key="frame" x="124.5" y="15" width="1" height="20"/>
+                        <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="Hbc-ko-TZv"/>
+                            <constraint firstAttribute="height" constant="20" id="zao-3u-49t"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gJF-iJ-k0j">
+                        <rect key="frame" x="125.5" y="-1" width="124" height="50.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="5" maxY="0.0"/>
+                        <state key="normal" title="10" image="c1_icon2">
+                            <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qh-VG-lli">
+                        <rect key="frame" x="249.5" y="15" width="1" height="20"/>
+                        <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="VIg-wf-14R"/>
+                            <constraint firstAttribute="width" constant="1" id="fwP-9k-iy3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="DHNewsBottomView" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dvb-Dd-4z7">
+                        <rect key="frame" x="250.5" y="-1" width="124.5" height="50.5"/>
+                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="5" maxY="0.0"/>
+                        <state key="normal" title="10" image="c1_icon3">
+                            <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <state key="selected" image="c1_icon4"/>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="WDT-bL-fFj" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="3uq-mJ-UZi"/>
+                <constraint firstItem="Dvb-Dd-4z7" firstAttribute="width" secondItem="WDT-bL-fFj" secondAttribute="width" id="6ds-vS-wm1"/>
+                <constraint firstItem="FWa-tf-8Uc" firstAttribute="centerY" secondItem="WDT-bL-fFj" secondAttribute="centerY" id="ECq-oZ-cgf"/>
+                <constraint firstItem="3qh-VG-lli" firstAttribute="leading" secondItem="gJF-iJ-k0j" secondAttribute="trailing" id="GPv-AV-j3a"/>
+                <constraint firstAttribute="trailing" secondItem="Dvb-Dd-4z7" secondAttribute="trailing" id="J1h-Bn-QZY"/>
+                <constraint firstItem="gJF-iJ-k0j" firstAttribute="centerY" secondItem="WDT-bL-fFj" secondAttribute="centerY" id="SB1-AB-9ql"/>
+                <constraint firstItem="gJF-iJ-k0j" firstAttribute="leading" secondItem="FWa-tf-8Uc" secondAttribute="trailing" id="YWV-vh-0Yv"/>
+                <constraint firstItem="Dvb-Dd-4z7" firstAttribute="leading" secondItem="3qh-VG-lli" secondAttribute="trailing" id="ZQ1-oH-Gnk"/>
+                <constraint firstItem="Dvb-Dd-4z7" firstAttribute="height" secondItem="WDT-bL-fFj" secondAttribute="height" id="Zte-1a-lvD"/>
+                <constraint firstItem="WDT-bL-fFj" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="a1J-rb-ciL"/>
+                <constraint firstAttribute="bottom" secondItem="WDT-bL-fFj" secondAttribute="bottom" id="dSo-nc-kY1"/>
+                <constraint firstItem="FWa-tf-8Uc" firstAttribute="leading" secondItem="WDT-bL-fFj" secondAttribute="trailing" id="nih-xM-Fez"/>
+                <constraint firstItem="3qh-VG-lli" firstAttribute="centerY" secondItem="WDT-bL-fFj" secondAttribute="centerY" id="pJJ-WQ-kSN"/>
+                <constraint firstItem="gJF-iJ-k0j" firstAttribute="height" secondItem="WDT-bL-fFj" secondAttribute="height" id="u8t-M0-yir"/>
+                <constraint firstItem="gJF-iJ-k0j" firstAttribute="width" secondItem="WDT-bL-fFj" secondAttribute="width" id="xkb-AN-Une"/>
+                <constraint firstItem="Dvb-Dd-4z7" firstAttribute="centerY" secondItem="WDT-bL-fFj" secondAttribute="centerY" id="y9X-6a-s2f"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <point key="canvasLocation" x="32.5" y="64"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="c1_icon1" width="16" height="17"/>
+        <image name="c1_icon2" width="17" height="15"/>
+        <image name="c1_icon3" width="16" height="16"/>
+        <image name="c1_icon4" width="16" height="16"/>
+    </resources>
+</document>
