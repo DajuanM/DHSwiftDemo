@@ -50,7 +50,7 @@ extension APIManager: TargetType {
     }
     /// The type of HTTP task to be performed.
     var task: Task {
-        return .requestPlain
+        return  Task.requestParameters(parameters: self.parameters!, encoding: URLEncoding.default)
     }
     /// Whether or not to perform Alamofire validation. Defaults to `false`.
     var validate: Bool {
