@@ -38,7 +38,7 @@ extension APIManager: TargetType {
     }
     /// The parameters to be incoded in the request.
     var parameters: [String: Any]? {
-        return nil
+        return [:]
     }
     /// The method used for parameter encoding.
     var parameterEncoding: ParameterEncoding {
