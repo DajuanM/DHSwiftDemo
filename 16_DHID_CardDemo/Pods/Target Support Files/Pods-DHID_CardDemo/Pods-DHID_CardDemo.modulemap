@@ -1,0 +1,6 @@
+framework module Pods_DHID_CardDemo {
+  umbrella header "Pods-DHID_CardDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

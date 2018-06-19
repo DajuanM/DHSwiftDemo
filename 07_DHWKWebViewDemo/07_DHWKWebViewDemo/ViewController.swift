@@ -81,7 +81,7 @@ extension ViewController: WKScriptMessageHandler {
 extension ViewController: WKNavigationDelegate {
     //页面开始加载时调用
     func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
-        S
+
     }
     //开始返回内容时调用
     func webView(_ webView: WKWebView, didCommit navigation: WKNavigation!) {

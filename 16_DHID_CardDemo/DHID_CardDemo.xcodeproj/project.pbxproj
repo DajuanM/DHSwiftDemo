@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26011579ADCB6F70344E6429 /* Pods_DHID_CardDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB942E15F7BB7200214FBA31 /* Pods_DHID_CardDemo.framework */; };
+		DFE5ED1C20A53E3E0052371A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5ED1B20A53E3E0052371A /* AppDelegate.swift */; };
+		DFE5ED1E20A53E3E0052371A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5ED1D20A53E3E0052371A /* ViewController.swift */; };
+		DFE5ED2120A53E3E0052371A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE5ED1F20A53E3E0052371A /* Main.storyboard */; };
+		DFE5ED2320A53E400052371A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE5ED2220A53E400052371A /* Assets.xcassets */; };
+		DFE5ED2620A53E400052371A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE5ED2420A53E400052371A /* LaunchScreen.storyboard */; };
+		DFE5ED3120A53E400052371A /* DHID_CardDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5ED3020A53E400052371A /* DHID_CardDemoTests.swift */; };
+		DFE5ED3C20A53E400052371A /* DHID_CardDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5ED3B20A53E400052371A /* DHID_CardDemoUITests.swift */; };
+		DFE5ED4A20A540940052371A /* id_card.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE5ED4920A540940052371A /* id_card.png */; };
+		DFE5ED5920A58B170052371A /* CloudApiSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE5ED5820A58B170052371A /* CloudApiSdk.framework */; };
+		DFE5ED5D20A58B4C0052371A /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE5ED5C20A58B4C0052371A /* Model.m */; };
+		DFE5ED6820A58BB00052371A /* BaseApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE5ED6020A58BB00052371A /* BaseApiClient.m */; };
+		DFE5ED6920A58BB00052371A /* SignUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE5ED6420A58BB00052371A /* SignUtil.m */; };
+		DFE5ED6A20A58BB00052371A /* SHA256.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE5ED6620A58BB00052371A /* SHA256.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFE5ED2D20A53E400052371A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFE5ED1020A53E3E0052371A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE5ED1720A53E3E0052371A;
+			remoteInfo = DHID_CardDemo;
+		};
+		DFE5ED3820A53E400052371A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFE5ED1020A53E3E0052371A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE5ED1720A53E3E0052371A;
+			remoteInfo = DHID_CardDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		268481C7F0AAEFE5D0F43AE0 /* Pods-DHID_CardDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHID_CardDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHID_CardDemo/Pods-DHID_CardDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DB942E15F7BB7200214FBA31 /* Pods_DHID_CardDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DHID_CardDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD106DB2ED6EB3D741D763CC /* Pods-DHID_CardDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHID_CardDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DHID_CardDemo/Pods-DHID_CardDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DFE5ED1820A53E3E0052371A /* DHID_CardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHID_CardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE5ED1B20A53E3E0052371A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFE5ED1D20A53E3E0052371A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFE5ED2020A53E3E0052371A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFE5ED2220A53E400052371A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFE5ED2520A53E400052371A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFE5ED2720A53E400052371A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE5ED2C20A53E400052371A /* DHID_CardDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHID_CardDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE5ED3020A53E400052371A /* DHID_CardDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHID_CardDemoTests.swift; sourceTree = "<group>"; };
+		DFE5ED3220A53E400052371A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE5ED3720A53E400052371A /* DHID_CardDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHID_CardDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE5ED3B20A53E400052371A /* DHID_CardDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHID_CardDemoUITests.swift; sourceTree = "<group>"; };
+		DFE5ED3D20A53E400052371A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE5ED4920A540940052371A /* id_card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = id_card.png; sourceTree = "<group>"; };
+		DFE5ED5820A58B170052371A /* CloudApiSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CloudApiSdk.framework; sourceTree = "<group>"; };
+		DFE5ED5A20A58B4C0052371A /* DHID_CardDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DHID_CardDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		DFE5ED5B20A58B4C0052371A /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		DFE5ED5C20A58B4C0052371A /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		DFE5ED5F20A58BB00052371A /* SignUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUtil.h; sourceTree = "<group>"; };
+		DFE5ED6020A58BB00052371A /* BaseApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseApiClient.m; sourceTree = "<group>"; };
+		DFE5ED6120A58BB00052371A /* SDKConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKConstant.h; sourceTree = "<group>"; };
+		DFE5ED6220A58BB00052371A /* SHA256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHA256.h; sourceTree = "<group>"; };
+		DFE5ED6320A58BB00052371A /* SignProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignProtocol.h; sourceTree = "<group>"; };
+		DFE5ED6420A58BB00052371A /* SignUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUtil.m; sourceTree = "<group>"; };
+		DFE5ED6520A58BB00052371A /* HttpConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpConstant.h; sourceTree = "<group>"; };
+		DFE5ED6620A58BB00052371A /* SHA256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHA256.m; sourceTree = "<group>"; };
+		DFE5ED6720A58BB00052371A /* BaseApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseApiClient.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFE5ED1520A53E3E0052371A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE5ED5920A58B170052371A /* CloudApiSdk.framework in Frameworks */,
+				26011579ADCB6F70344E6429 /* Pods_DHID_CardDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE5ED2920A53E400052371A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE5ED3420A53E400052371A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63C6E642BAEB49756A56DE58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB942E15F7BB7200214FBA31 /* Pods_DHID_CardDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B3C47D0EDF116B653C45DD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				268481C7F0AAEFE5D0F43AE0 /* Pods-DHID_CardDemo.debug.xcconfig */,
+				DD106DB2ED6EB3D741D763CC /* Pods-DHID_CardDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DFE5ED0F20A53E3E0052371A = {
+			isa = PBXGroup;
+			children = (
+				DFE5ED1A20A53E3E0052371A /* DHID_CardDemo */,
+				DFE5ED2F20A53E400052371A /* DHID_CardDemoTests */,
+				DFE5ED3A20A53E400052371A /* DHID_CardDemoUITests */,
+				DFE5ED1920A53E3E0052371A /* Products */,
+				7B3C47D0EDF116B653C45DD8 /* Pods */,
+				63C6E642BAEB49756A56DE58 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DFE5ED1920A53E3E0052371A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFE5ED1820A53E3E0052371A /* DHID_CardDemo.app */,
+				DFE5ED2C20A53E400052371A /* DHID_CardDemoTests.xctest */,
+				DFE5ED3720A53E400052371A /* DHID_CardDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFE5ED1A20A53E3E0052371A /* DHID_CardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DFE5ED5E20A58BB00052371A /* src */,
+				DFE5ED5820A58B170052371A /* CloudApiSdk.framework */,
+				DFE5ED1B20A53E3E0052371A /* AppDelegate.swift */,
+				DFE5ED1D20A53E3E0052371A /* ViewController.swift */,
+				DFE5ED5B20A58B4C0052371A /* Model.h */,
+				DFE5ED5C20A58B4C0052371A /* Model.m */,
+				DFE5ED4920A540940052371A /* id_card.png */,
+				DFE5ED1F20A53E3E0052371A /* Main.storyboard */,
+				DFE5ED2220A53E400052371A /* Assets.xcassets */,
+				DFE5ED2420A53E400052371A /* LaunchScreen.storyboard */,
+				DFE5ED2720A53E400052371A /* Info.plist */,
+				DFE5ED5A20A58B4C0052371A /* DHID_CardDemo-Bridging-Header.h */,
+			);
+			path = DHID_CardDemo;
+			sourceTree = "<group>";
+		};
+		DFE5ED2F20A53E400052371A /* DHID_CardDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFE5ED3020A53E400052371A /* DHID_CardDemoTests.swift */,
+				DFE5ED3220A53E400052371A /* Info.plist */,
+			);
+			path = DHID_CardDemoTests;
+			sourceTree = "<group>";
+		};
+		DFE5ED3A20A53E400052371A /* DHID_CardDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFE5ED3B20A53E400052371A /* DHID_CardDemoUITests.swift */,
+				DFE5ED3D20A53E400052371A /* Info.plist */,
+			);
+			path = DHID_CardDemoUITests;
+			sourceTree = "<group>";
+		};
+		DFE5ED5E20A58BB00052371A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				DFE5ED5F20A58BB00052371A /* SignUtil.h */,
+				DFE5ED6020A58BB00052371A /* BaseApiClient.m */,
+				DFE5ED6120A58BB00052371A /* SDKConstant.h */,
+				DFE5ED6220A58BB00052371A /* SHA256.h */,
+				DFE5ED6320A58BB00052371A /* SignProtocol.h */,
+				DFE5ED6420A58BB00052371A /* SignUtil.m */,
+				DFE5ED6520A58BB00052371A /* HttpConstant.h */,
+				DFE5ED6620A58BB00052371A /* SHA256.m */,
+				DFE5ED6720A58BB00052371A /* BaseApiClient.h */,
+			);
+			name = src;
+			path = ../../../Downloads/CASDK_OBJECTC_1048850682116167_1526005682004/src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFE5ED1720A53E3E0052371A /* DHID_CardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE5ED4020A53E400052371A /* Build configuration list for PBXNativeTarget "DHID_CardDemo" */;
+			buildPhases = (
+				8AC7A73C705DEC10F28828A8 /* [CP] Check Pods Manifest.lock */,
+				DFE5ED1420A53E3E0052371A /* Sources */,
+				DFE5ED1520A53E3E0052371A /* Frameworks */,
+				DFE5ED1620A53E3E0052371A /* Resources */,
+				F538D081AAF2874DED242438 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DHID_CardDemo;
+			productName = DHID_CardDemo;
+			productReference = DFE5ED1820A53E3E0052371A /* DHID_CardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFE5ED2B20A53E400052371A /* DHID_CardDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE5ED4320A53E400052371A /* Build configuration list for PBXNativeTarget "DHID_CardDemoTests" */;
+			buildPhases = (
+				DFE5ED2820A53E400052371A /* Sources */,
+				DFE5ED2920A53E400052371A /* Frameworks */,
+				DFE5ED2A20A53E400052371A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFE5ED2E20A53E400052371A /* PBXTargetDependency */,
+			);
+			name = DHID_CardDemoTests;
+			productName = DHID_CardDemoTests;
+			productReference = DFE5ED2C20A53E400052371A /* DHID_CardDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFE5ED3620A53E400052371A /* DHID_CardDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE5ED4620A53E400052371A /* Build configuration list for PBXNativeTarget "DHID_CardDemoUITests" */;
+			buildPhases = (
+				DFE5ED3320A53E400052371A /* Sources */,
+				DFE5ED3420A53E400052371A /* Frameworks */,
+				DFE5ED3520A53E400052371A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFE5ED3920A53E400052371A /* PBXTargetDependency */,
+			);
+			name = DHID_CardDemoUITests;
+			productName = DHID_CardDemoUITests;
+			productReference = DFE5ED3720A53E400052371A /* DHID_CardDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFE5ED1020A53E3E0052371A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = aiden;
+				TargetAttributes = {
+					DFE5ED1720A53E3E0052371A = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+					DFE5ED2B20A53E400052371A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = DFE5ED1720A53E3E0052371A;
+					};
+					DFE5ED3620A53E400052371A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = DFE5ED1720A53E3E0052371A;
+					};
+				};
+			};
+			buildConfigurationList = DFE5ED1320A53E3E0052371A /* Build configuration list for PBXProject "DHID_CardDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFE5ED0F20A53E3E0052371A;
+			productRefGroup = DFE5ED1920A53E3E0052371A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFE5ED1720A53E3E0052371A /* DHID_CardDemo */,
+				DFE5ED2B20A53E400052371A /* DHID_CardDemoTests */,
+				DFE5ED3620A53E400052371A /* DHID_CardDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFE5ED1620A53E3E0052371A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE5ED2620A53E400052371A /* LaunchScreen.storyboard in Resources */,
+				DFE5ED2320A53E400052371A /* Assets.xcassets in Resources */,
+				DFE5ED2120A53E3E0052371A /* Main.storyboard in Resources */,
+				DFE5ED4A20A540940052371A /* id_card.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE5ED2A20A53E400052371A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE5ED3520A53E400052371A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8AC7A73C705DEC10F28828A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DHID_CardDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F538D081AAF2874DED242438 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DHID_CardDemo/Pods-DHID_CardDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DHID_CardDemo/Pods-DHID_CardDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFE5ED1420A53E3E0052371A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE5ED5D20A58B4C0052371A /* Model.m in Sources */,
+				DFE5ED1E20A53E3E0052371A /* ViewController.swift in Sources */,
+				DFE5ED6920A58BB00052371A /* SignUtil.m in Sources */,
+				DFE5ED6820A58BB00052371A /* BaseApiClient.m in Sources */,
+				DFE5ED6A20A58BB00052371A /* SHA256.m in Sources */,
+				DFE5ED1C20A53E3E0052371A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE5ED2820A53E400052371A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE5ED3120A53E400052371A /* DHID_CardDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE5ED3320A53E400052371A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE5ED3C20A53E400052371A /* DHID_CardDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFE5ED2E20A53E400052371A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE5ED1720A53E3E0052371A /* DHID_CardDemo */;
+			targetProxy = DFE5ED2D20A53E400052371A /* PBXContainerItemProxy */;
+		};
+		DFE5ED3920A53E400052371A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE5ED1720A53E3E0052371A /* DHID_CardDemo */;
+			targetProxy = DFE5ED3820A53E400052371A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFE5ED1F20A53E3E0052371A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFE5ED2020A53E3E0052371A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFE5ED2420A53E400052371A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFE5ED2520A53E400052371A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFE5ED3E20A53E400052371A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFE5ED3F20A53E400052371A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFE5ED4120A53E400052371A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 268481C7F0AAEFE5D0F43AE0 /* Pods-DHID_CardDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V46UE7EUZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DHID_CardDemo",
+				);
+				INFOPLIST_FILE = DHID_CardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aiden.DHID-CardDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DHID_CardDemo/DHID_CardDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFE5ED4220A53E400052371A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD106DB2ED6EB3D741D763CC /* Pods-DHID_CardDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V46UE7EUZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DHID_CardDemo",
+				);
+				INFOPLIST_FILE = DHID_CardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aiden.DHID-CardDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DHID_CardDemo/DHID_CardDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFE5ED4420A53E400052371A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V46UE7EUZ;
+				INFOPLIST_FILE = DHID_CardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aiden.DHID-CardDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DHID_CardDemo.app/DHID_CardDemo";
+			};
+			name = Debug;
+		};
+		DFE5ED4520A53E400052371A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V46UE7EUZ;
+				INFOPLIST_FILE = DHID_CardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aiden.DHID-CardDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DHID_CardDemo.app/DHID_CardDemo";
+			};
+			name = Release;
+		};
+		DFE5ED4720A53E400052371A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V46UE7EUZ;
+				INFOPLIST_FILE = DHID_CardDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aiden.DHID-CardDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DHID_CardDemo;
+			};
+			name = Debug;
+		};
+		DFE5ED4820A53E400052371A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V46UE7EUZ;
+				INFOPLIST_FILE = DHID_CardDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aiden.DHID-CardDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DHID_CardDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFE5ED1320A53E3E0052371A /* Build configuration list for PBXProject "DHID_CardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE5ED3E20A53E400052371A /* Debug */,
+				DFE5ED3F20A53E400052371A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE5ED4020A53E400052371A /* Build configuration list for PBXNativeTarget "DHID_CardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE5ED4120A53E400052371A /* Debug */,
+				DFE5ED4220A53E400052371A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE5ED4320A53E400052371A /* Build configuration list for PBXNativeTarget "DHID_CardDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE5ED4420A53E400052371A /* Debug */,
+				DFE5ED4520A53E400052371A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE5ED4620A53E400052371A /* Build configuration list for PBXNativeTarget "DHID_CardDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE5ED4720A53E400052371A /* Debug */,
+				DFE5ED4820A53E400052371A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFE5ED1020A53E3E0052371A /* Project object */;
+}

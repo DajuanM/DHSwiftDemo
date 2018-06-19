@@ -1,0 +1,6 @@
+framework module Pods_DHYNDropDownMenuDemo {
+  umbrella header "Pods-DHYNDropDownMenuDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
