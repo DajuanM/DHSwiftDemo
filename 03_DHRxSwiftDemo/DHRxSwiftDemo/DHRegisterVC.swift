@@ -35,16 +35,6 @@ class DHRegisterVC: UIViewController {
 //        nameTF.rx.text.orEmpty.bind(to: registerVM.name).addDisposableTo(disposeBag)
         //可以直接绑定 也可直接监听
         registerVM.nameValid.bind(to: nameTipLabel.rx.validResult).addDisposableTo(disposeBag)
-        //        registerVM.nameValid.subscribe(onNext: { (result) in
-        //            switch result {
-        //            case .empty:
-        //                self.nameTipLabel.isHidden = true
-        //            default:
-        //                self.nameTipLabel.isHidden = false
-        //                self.nameTipLabel.text = result.description
-        //                self.nameTipLabel.textColor = result.textColor
-        //            }
-        //        }).addDisposableTo(disposeBag)
         
         psdTF.rx.text.orEmpty.bind(to: registerVM.psd).addDisposableTo(disposeBag)
         registerVM.psdValid.bind(to: psdTipLabel.rx.validResult).addDisposableTo(disposeBag)
@@ -53,15 +43,6 @@ class DHRegisterVC: UIViewController {
         registerVM.repeatPsdValid.bind(to: repeatTipLabel.rx.validResult).addDisposableTo(disposeBag)
         
         registerVM.registerBtnEnable.bind(to: registerBtn.rx.enableResult).addDisposableTo(disposeBag)
-        //        registerVM.registerBtnEnable.subscribe(onNext: { (result) in
-        //            if result {
-        //                self.registerBtn.backgroundColor = UIColor.red
-        //                self.registerBtn.isUserInteractionEnabled = true
-        //            }else{
-        //                self.registerBtn.backgroundColor = UIColor.gray
-        //                 self.registerBtn.isUserInteractionEnabled = false
-        //            }
-        //        }).addDisposableTo(disposeBag)
         
         //注册按钮点击事件.
         registerBtn.rx.controlEvent(UIControlEvents.touchUpInside).subscribe(onNext: { (button) in

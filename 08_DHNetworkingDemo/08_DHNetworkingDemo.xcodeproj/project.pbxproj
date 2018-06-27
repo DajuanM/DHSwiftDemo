@@ -18,6 +18,14 @@
 		704824CB1FF38B6F00275CC3 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704824C91FF38B6F00275CC3 /* NewsTableViewCell.swift */; };
 		704824CC1FF38B6F00275CC3 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 704824CA1FF38B6F00275CC3 /* NewsTableViewCell.xib */; };
 		743E36EA1149EC1C3FA2BB3E /* Pods_08_DHNetworkingDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD15F3F925F5A7D9045F57E2 /* Pods_08_DHNetworkingDemo.framework */; };
+		DF7BAEDE20DC9DAA00C21886 /* VBServiceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BAEDD20DC9DAA00C21886 /* VBServiceAPI.swift */; };
+		DFECE6FD20E08D8700FF3780 /* APIContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFECE6F720E08D8600FF3780 /* APIContext.swift */; };
+		DFECE6FE20E08D8700FF3780 /* NetworkProvider+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFECE6F820E08D8600FF3780 /* NetworkProvider+Decodable.swift */; };
+		DFECE6FF20E08D8700FF3780 /* NetWorkProvider+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFECE6F920E08D8600FF3780 /* NetWorkProvider+Defaults.swift */; };
+		DFECE70020E08D8700FF3780 /* VBError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFECE6FA20E08D8600FF3780 /* VBError.swift */; };
+		DFECE70120E08D8700FF3780 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFECE6FB20E08D8700FF3780 /* NetworkLogger.swift */; };
+		DFECE70220E08D8700FF3780 /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFECE6FC20E08D8700FF3780 /* NetworkProvider.swift */; };
+		DFECE70420E08DD400FF3780 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFECE70320E08DD400FF3780 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +44,14 @@
 		704824CA1FF38B6F00275CC3 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
 		AD15F3F925F5A7D9045F57E2 /* Pods_08_DHNetworkingDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_08_DHNetworkingDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADDE8964A1E0C9CDB091060B /* Pods-08_DHNetworkingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-08_DHNetworkingDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-08_DHNetworkingDemo/Pods-08_DHNetworkingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DF7BAEDD20DC9DAA00C21886 /* VBServiceAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VBServiceAPI.swift; sourceTree = "<group>"; };
+		DFECE6F720E08D8600FF3780 /* APIContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIContext.swift; sourceTree = "<group>"; };
+		DFECE6F820E08D8600FF3780 /* NetworkProvider+Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkProvider+Decodable.swift"; sourceTree = "<group>"; };
+		DFECE6F920E08D8600FF3780 /* NetWorkProvider+Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetWorkProvider+Defaults.swift"; sourceTree = "<group>"; };
+		DFECE6FA20E08D8600FF3780 /* VBError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VBError.swift; sourceTree = "<group>"; };
+		DFECE6FB20E08D8700FF3780 /* NetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		DFECE6FC20E08D8700FF3780 /* NetworkProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		DFECE70320E08DD400FF3780 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +101,7 @@
 				704824C51FF3710800275CC3 /* ObservableExtension.swift */,
 				704824C71FF3850C00275CC3 /* NewsModel.swift */,
 				704824C91FF38B6F00275CC3 /* NewsTableViewCell.swift */,
+				DFAC58ED20DBA5850093CAD3 /* networking */,
 				704824CA1FF38B6F00275CC3 /* NewsTableViewCell.xib */,
 				704824B51FF34A1B00275CC3 /* Main.storyboard */,
 				704824B81FF34A1B00275CC3 /* Assets.xcassets */,
@@ -92,6 +109,21 @@
 				704824BD1FF34A1B00275CC3 /* Info.plist */,
 			);
 			path = 08_DHNetworkingDemo;
+			sourceTree = "<group>";
+		};
+		DFAC58ED20DBA5850093CAD3 /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				DF7BAEDD20DC9DAA00C21886 /* VBServiceAPI.swift */,
+				DFECE70320E08DD400FF3780 /* API.swift */,
+				DFECE6F720E08D8600FF3780 /* APIContext.swift */,
+				DFECE6FB20E08D8700FF3780 /* NetworkLogger.swift */,
+				DFECE6FC20E08D8700FF3780 /* NetworkProvider.swift */,
+				DFECE6F820E08D8600FF3780 /* NetworkProvider+Decodable.swift */,
+				DFECE6F920E08D8600FF3780 /* NetWorkProvider+Defaults.swift */,
+				DFECE6FA20E08D8600FF3780 /* VBError.swift */,
+			);
+			path = networking;
 			sourceTree = "<group>";
 		};
 		E2FDEB73642EB5C5A2D5763C /* Pods */ = {
@@ -245,12 +277,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFECE70120E08D8700FF3780 /* NetworkLogger.swift in Sources */,
+				DFECE70220E08D8700FF3780 /* NetworkProvider.swift in Sources */,
+				DF7BAEDE20DC9DAA00C21886 /* VBServiceAPI.swift in Sources */,
 				704824B41FF34A1B00275CC3 /* ViewController.swift in Sources */,
+				DFECE6FD20E08D8700FF3780 /* APIContext.swift in Sources */,
 				704824C41FF3709700275CC3 /* APIManager.swift in Sources */,
+				DFECE70420E08DD400FF3780 /* API.swift in Sources */,
 				704824CB1FF38B6F00275CC3 /* NewsTableViewCell.swift in Sources */,
+				DFECE6FE20E08D8700FF3780 /* NetworkProvider+Decodable.swift in Sources */,
 				704824C61FF3710800275CC3 /* ObservableExtension.swift in Sources */,
 				704824B21FF34A1B00275CC3 /* AppDelegate.swift in Sources */,
+				DFECE70020E08D8700FF3780 /* VBError.swift in Sources */,
 				704824C81FF3850C00275CC3 /* NewsModel.swift in Sources */,
+				DFECE6FF20E08D8700FF3780 /* NetWorkProvider+Defaults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

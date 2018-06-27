@@ -1,0 +1,6 @@
+framework module Pods_FDFullscreenPopGestureDemo {
+  umbrella header "Pods-FDFullscreenPopGestureDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

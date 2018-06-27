@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2913688D9A01CE2497286221 /* Pods_FDFullscreenPopGestureDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD608C7164DD19441903EC06 /* Pods_FDFullscreenPopGestureDemoUITests.framework */; };
+		3C5188AB23D41102894FB9E5 /* Pods_FDFullscreenPopGestureDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9450D9FF69339953BB691B4 /* Pods_FDFullscreenPopGestureDemo.framework */; };
+		558D718C96FDF677B0289C77 /* Pods_FDFullscreenPopGestureDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6417EF4AF8DB3ED765E9C640 /* Pods_FDFullscreenPopGestureDemoTests.framework */; };
+		DF7C320520E1E4C100095450 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C320420E1E4C100095450 /* AppDelegate.swift */; };
+		DF7C320720E1E4C100095450 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C320620E1E4C100095450 /* ViewController.swift */; };
+		DF7C320A20E1E4C100095450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7C320820E1E4C100095450 /* Main.storyboard */; };
+		DF7C320C20E1E4C400095450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7C320B20E1E4C400095450 /* Assets.xcassets */; };
+		DF7C320F20E1E4C400095450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7C320D20E1E4C400095450 /* LaunchScreen.storyboard */; };
+		DF7C321A20E1E4C400095450 /* FDFullscreenPopGestureDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C321920E1E4C400095450 /* FDFullscreenPopGestureDemoTests.swift */; };
+		DF7C322520E1E4C400095450 /* FDFullscreenPopGestureDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C322420E1E4C400095450 /* FDFullscreenPopGestureDemoUITests.swift */; };
+		DF7C323320E1E63400095450 /* AVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C323220E1E63400095450 /* AVC.swift */; };
+		DF7C323520E1E64300095450 /* BVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C323420E1E64300095450 /* BVC.swift */; };
+		DF7C323720E1E64B00095450 /* CVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C323620E1E64B00095450 /* CVC.swift */; };
+		DF7C323920E1ECBE00095450 /* DHScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C323820E1ECBE00095450 /* DHScrollView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF7C321620E1E4C400095450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF7C31F920E1E4C100095450 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF7C320020E1E4C100095450;
+			remoteInfo = FDFullscreenPopGestureDemo;
+		};
+		DF7C322120E1E4C400095450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF7C31F920E1E4C100095450 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF7C320020E1E4C100095450;
+			remoteInfo = FDFullscreenPopGestureDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C6783184E840D60011DC104 /* Pods-FDFullscreenPopGestureDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDFullscreenPopGestureDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FDFullscreenPopGestureDemo/Pods-FDFullscreenPopGestureDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4CEF18B77151BD5540251438 /* Pods-FDFullscreenPopGestureDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDFullscreenPopGestureDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FDFullscreenPopGestureDemoUITests/Pods-FDFullscreenPopGestureDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6305AF987B465DE90C6C3D23 /* Pods-FDFullscreenPopGestureDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDFullscreenPopGestureDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FDFullscreenPopGestureDemoTests/Pods-FDFullscreenPopGestureDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6417EF4AF8DB3ED765E9C640 /* Pods_FDFullscreenPopGestureDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FDFullscreenPopGestureDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F54F1CBD864B3AEFB1C3C80 /* Pods-FDFullscreenPopGestureDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDFullscreenPopGestureDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FDFullscreenPopGestureDemo/Pods-FDFullscreenPopGestureDemo.release.xcconfig"; sourceTree = "<group>"; };
+		909B245A1F75772DA7D06662 /* Pods-FDFullscreenPopGestureDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDFullscreenPopGestureDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FDFullscreenPopGestureDemoTests/Pods-FDFullscreenPopGestureDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9450D9FF69339953BB691B4 /* Pods_FDFullscreenPopGestureDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FDFullscreenPopGestureDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD608C7164DD19441903EC06 /* Pods_FDFullscreenPopGestureDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FDFullscreenPopGestureDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7C320120E1E4C100095450 /* FDFullscreenPopGestureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDFullscreenPopGestureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7C320420E1E4C100095450 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF7C320620E1E4C100095450 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF7C320920E1E4C100095450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF7C320B20E1E4C400095450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF7C320E20E1E4C400095450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF7C321020E1E4C400095450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7C321520E1E4C400095450 /* FDFullscreenPopGestureDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDFullscreenPopGestureDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7C321920E1E4C400095450 /* FDFullscreenPopGestureDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDFullscreenPopGestureDemoTests.swift; sourceTree = "<group>"; };
+		DF7C321B20E1E4C400095450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7C322020E1E4C400095450 /* FDFullscreenPopGestureDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDFullscreenPopGestureDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7C322420E1E4C400095450 /* FDFullscreenPopGestureDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDFullscreenPopGestureDemoUITests.swift; sourceTree = "<group>"; };
+		DF7C322620E1E4C400095450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7C323220E1E63400095450 /* AVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVC.swift; sourceTree = "<group>"; };
+		DF7C323420E1E64300095450 /* BVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BVC.swift; sourceTree = "<group>"; };
+		DF7C323620E1E64B00095450 /* CVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVC.swift; sourceTree = "<group>"; };
+		DF7C323820E1ECBE00095450 /* DHScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHScrollView.swift; sourceTree = "<group>"; };
+		EE6561E773B8EB04AF937360 /* Pods-FDFullscreenPopGestureDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDFullscreenPopGestureDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FDFullscreenPopGestureDemoUITests/Pods-FDFullscreenPopGestureDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF7C31FE20E1E4C100095450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5188AB23D41102894FB9E5 /* Pods_FDFullscreenPopGestureDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7C321220E1E4C400095450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558D718C96FDF677B0289C77 /* Pods_FDFullscreenPopGestureDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7C321D20E1E4C400095450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2913688D9A01CE2497286221 /* Pods_FDFullscreenPopGestureDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0521256132AF4AB1BDDDDDB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C6783184E840D60011DC104 /* Pods-FDFullscreenPopGestureDemo.debug.xcconfig */,
+				6F54F1CBD864B3AEFB1C3C80 /* Pods-FDFullscreenPopGestureDemo.release.xcconfig */,
+				6305AF987B465DE90C6C3D23 /* Pods-FDFullscreenPopGestureDemoTests.debug.xcconfig */,
+				909B245A1F75772DA7D06662 /* Pods-FDFullscreenPopGestureDemoTests.release.xcconfig */,
+				4CEF18B77151BD5540251438 /* Pods-FDFullscreenPopGestureDemoUITests.debug.xcconfig */,
+				EE6561E773B8EB04AF937360 /* Pods-FDFullscreenPopGestureDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A05D0CEBADE552FEE02153AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9450D9FF69339953BB691B4 /* Pods_FDFullscreenPopGestureDemo.framework */,
+				6417EF4AF8DB3ED765E9C640 /* Pods_FDFullscreenPopGestureDemoTests.framework */,
+				CD608C7164DD19441903EC06 /* Pods_FDFullscreenPopGestureDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF7C31F820E1E4C100095450 = {
+			isa = PBXGroup;
+			children = (
+				DF7C320320E1E4C100095450 /* FDFullscreenPopGestureDemo */,
+				DF7C321820E1E4C400095450 /* FDFullscreenPopGestureDemoTests */,
+				DF7C322320E1E4C400095450 /* FDFullscreenPopGestureDemoUITests */,
+				DF7C320220E1E4C100095450 /* Products */,
+				0521256132AF4AB1BDDDDDB0 /* Pods */,
+				A05D0CEBADE552FEE02153AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF7C320220E1E4C100095450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF7C320120E1E4C100095450 /* FDFullscreenPopGestureDemo.app */,
+				DF7C321520E1E4C400095450 /* FDFullscreenPopGestureDemoTests.xctest */,
+				DF7C322020E1E4C400095450 /* FDFullscreenPopGestureDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF7C320320E1E4C100095450 /* FDFullscreenPopGestureDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DF7C320420E1E4C100095450 /* AppDelegate.swift */,
+				DF7C320620E1E4C100095450 /* ViewController.swift */,
+				DF7C323220E1E63400095450 /* AVC.swift */,
+				DF7C323420E1E64300095450 /* BVC.swift */,
+				DF7C323620E1E64B00095450 /* CVC.swift */,
+				DF7C323820E1ECBE00095450 /* DHScrollView.swift */,
+				DF7C320820E1E4C100095450 /* Main.storyboard */,
+				DF7C320B20E1E4C400095450 /* Assets.xcassets */,
+				DF7C320D20E1E4C400095450 /* LaunchScreen.storyboard */,
+				DF7C321020E1E4C400095450 /* Info.plist */,
+			);
+			path = FDFullscreenPopGestureDemo;
+			sourceTree = "<group>";
+		};
+		DF7C321820E1E4C400095450 /* FDFullscreenPopGestureDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF7C321920E1E4C400095450 /* FDFullscreenPopGestureDemoTests.swift */,
+				DF7C321B20E1E4C400095450 /* Info.plist */,
+			);
+			path = FDFullscreenPopGestureDemoTests;
+			sourceTree = "<group>";
+		};
+		DF7C322320E1E4C400095450 /* FDFullscreenPopGestureDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF7C322420E1E4C400095450 /* FDFullscreenPopGestureDemoUITests.swift */,
+				DF7C322620E1E4C400095450 /* Info.plist */,
+			);
+			path = FDFullscreenPopGestureDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF7C320020E1E4C100095450 /* FDFullscreenPopGestureDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7C322920E1E4C400095450 /* Build configuration list for PBXNativeTarget "FDFullscreenPopGestureDemo" */;
+			buildPhases = (
+				979EC1CA127A2D8427E4AB43 /* [CP] Check Pods Manifest.lock */,
+				DF7C31FD20E1E4C100095450 /* Sources */,
+				DF7C31FE20E1E4C100095450 /* Frameworks */,
+				DF7C31FF20E1E4C100095450 /* Resources */,
+				7E94B7CDB36E4DC81B0AB728 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDFullscreenPopGestureDemo;
+			productName = FDFullscreenPopGestureDemo;
+			productReference = DF7C320120E1E4C100095450 /* FDFullscreenPopGestureDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF7C321420E1E4C400095450 /* FDFullscreenPopGestureDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7C322C20E1E4C400095450 /* Build configuration list for PBXNativeTarget "FDFullscreenPopGestureDemoTests" */;
+			buildPhases = (
+				271DD5578DA67D4391E43893 /* [CP] Check Pods Manifest.lock */,
+				DF7C321120E1E4C400095450 /* Sources */,
+				DF7C321220E1E4C400095450 /* Frameworks */,
+				DF7C321320E1E4C400095450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF7C321720E1E4C400095450 /* PBXTargetDependency */,
+			);
+			name = FDFullscreenPopGestureDemoTests;
+			productName = FDFullscreenPopGestureDemoTests;
+			productReference = DF7C321520E1E4C400095450 /* FDFullscreenPopGestureDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF7C321F20E1E4C400095450 /* FDFullscreenPopGestureDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7C322F20E1E4C400095450 /* Build configuration list for PBXNativeTarget "FDFullscreenPopGestureDemoUITests" */;
+			buildPhases = (
+				D9CA1D6DCEE55F2ACECD2D01 /* [CP] Check Pods Manifest.lock */,
+				DF7C321C20E1E4C400095450 /* Sources */,
+				DF7C321D20E1E4C400095450 /* Frameworks */,
+				DF7C321E20E1E4C400095450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF7C322220E1E4C400095450 /* PBXTargetDependency */,
+			);
+			name = FDFullscreenPopGestureDemoUITests;
+			productName = FDFullscreenPopGestureDemoUITests;
+			productReference = DF7C322020E1E4C400095450 /* FDFullscreenPopGestureDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF7C31F920E1E4C100095450 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = aiden;
+				TargetAttributes = {
+					DF7C320020E1E4C100095450 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					DF7C321420E1E4C400095450 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = DF7C320020E1E4C100095450;
+					};
+					DF7C321F20E1E4C400095450 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = DF7C320020E1E4C100095450;
+					};
+				};
+			};
+			buildConfigurationList = DF7C31FC20E1E4C100095450 /* Build configuration list for PBXProject "FDFullscreenPopGestureDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF7C31F820E1E4C100095450;
+			productRefGroup = DF7C320220E1E4C100095450 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF7C320020E1E4C100095450 /* FDFullscreenPopGestureDemo */,
+				DF7C321420E1E4C400095450 /* FDFullscreenPopGestureDemoTests */,
+				DF7C321F20E1E4C400095450 /* FDFullscreenPopGestureDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF7C31FF20E1E4C100095450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7C320F20E1E4C400095450 /* LaunchScreen.storyboard in Resources */,
+				DF7C320C20E1E4C400095450 /* Assets.xcassets in Resources */,
+				DF7C320A20E1E4C100095450 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7C321320E1E4C400095450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7C321E20E1E4C400095450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		271DD5578DA67D4391E43893 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FDFullscreenPopGestureDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E94B7CDB36E4DC81B0AB728 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FDFullscreenPopGestureDemo/Pods-FDFullscreenPopGestureDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FDFullscreenPopGesture/FDFullscreenPopGesture.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDFullscreenPopGesture.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FDFullscreenPopGestureDemo/Pods-FDFullscreenPopGestureDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		979EC1CA127A2D8427E4AB43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FDFullscreenPopGestureDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9CA1D6DCEE55F2ACECD2D01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FDFullscreenPopGestureDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF7C31FD20E1E4C100095450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7C323320E1E63400095450 /* AVC.swift in Sources */,
+				DF7C320720E1E4C100095450 /* ViewController.swift in Sources */,
+				DF7C323720E1E64B00095450 /* CVC.swift in Sources */,
+				DF7C320520E1E4C100095450 /* AppDelegate.swift in Sources */,
+				DF7C323520E1E64300095450 /* BVC.swift in Sources */,
+				DF7C323920E1ECBE00095450 /* DHScrollView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7C321120E1E4C400095450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7C321A20E1E4C400095450 /* FDFullscreenPopGestureDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7C321C20E1E4C400095450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7C322520E1E4C400095450 /* FDFullscreenPopGestureDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF7C321720E1E4C400095450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF7C320020E1E4C100095450 /* FDFullscreenPopGestureDemo */;
+			targetProxy = DF7C321620E1E4C400095450 /* PBXContainerItemProxy */;
+		};
+		DF7C322220E1E4C400095450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF7C320020E1E4C100095450 /* FDFullscreenPopGestureDemo */;
+			targetProxy = DF7C322120E1E4C400095450 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF7C320820E1E4C100095450 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF7C320920E1E4C100095450 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF7C320D20E1E4C400095450 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF7C320E20E1E4C400095450 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF7C322720E1E4C400095450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF7C322820E1E4C400095450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF7C322A20E1E4C400095450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6783184E840D60011DC104 /* Pods-FDFullscreenPopGestureDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V46UE7EUZ;
+				INFOPLIST_FILE = FDFullscreenPopGestureDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiden.FDFullscreenPopGestureDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF7C322B20E1E4C400095450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F54F1CBD864B3AEFB1C3C80 /* Pods-FDFullscreenPopGestureDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V46UE7EUZ;
+				INFOPLIST_FILE = FDFullscreenPopGestureDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiden.FDFullscreenPopGestureDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF7C322D20E1E4C400095450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6305AF987B465DE90C6C3D23 /* Pods-FDFullscreenPopGestureDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V46UE7EUZ;
+				INFOPLIST_FILE = FDFullscreenPopGestureDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiden.FDFullscreenPopGestureDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDFullscreenPopGestureDemo.app/FDFullscreenPopGestureDemo";
+			};
+			name = Debug;
+		};
+		DF7C322E20E1E4C400095450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 909B245A1F75772DA7D06662 /* Pods-FDFullscreenPopGestureDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V46UE7EUZ;
+				INFOPLIST_FILE = FDFullscreenPopGestureDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiden.FDFullscreenPopGestureDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDFullscreenPopGestureDemo.app/FDFullscreenPopGestureDemo";
+			};
+			name = Release;
+		};
+		DF7C323020E1E4C400095450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CEF18B77151BD5540251438 /* Pods-FDFullscreenPopGestureDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V46UE7EUZ;
+				INFOPLIST_FILE = FDFullscreenPopGestureDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiden.FDFullscreenPopGestureDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FDFullscreenPopGestureDemo;
+			};
+			name = Debug;
+		};
+		DF7C323120E1E4C400095450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE6561E773B8EB04AF937360 /* Pods-FDFullscreenPopGestureDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V46UE7EUZ;
+				INFOPLIST_FILE = FDFullscreenPopGestureDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiden.FDFullscreenPopGestureDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FDFullscreenPopGestureDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF7C31FC20E1E4C100095450 /* Build configuration list for PBXProject "FDFullscreenPopGestureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7C322720E1E4C400095450 /* Debug */,
+				DF7C322820E1E4C400095450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7C322920E1E4C400095450 /* Build configuration list for PBXNativeTarget "FDFullscreenPopGestureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7C322A20E1E4C400095450 /* Debug */,
+				DF7C322B20E1E4C400095450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7C322C20E1E4C400095450 /* Build configuration list for PBXNativeTarget "FDFullscreenPopGestureDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7C322D20E1E4C400095450 /* Debug */,
+				DF7C322E20E1E4C400095450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7C322F20E1E4C400095450 /* Build configuration list for PBXNativeTarget "FDFullscreenPopGestureDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7C323020E1E4C400095450 /* Debug */,
+				DF7C323120E1E4C400095450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF7C31F920E1E4C100095450 /* Project object */;
+}
