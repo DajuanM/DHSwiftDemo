@@ -92,6 +92,14 @@ private let endpointClosure = { (target: VBServiceAPI) -> Moya.Endpoint<VBServic
 
 }
 
+func cancelAllRequest() {
+    Provider.manager.session.getTasksWithCompletionHandler { dataTasks, uploadTasks, downloadTasks in
+        dataTasks.forEach { $0.cancel() }
+        uploadTasks.forEach { $0.cancel() }
+        downloadTasks.forEach { $0.cancel() }
+    }
+}
+
 private func JSONResponseDataFormatter(_ data: Data) -> Data {
     do {
         let dataAsJSON = try JSONSerialization.jsonObject(with: data)
