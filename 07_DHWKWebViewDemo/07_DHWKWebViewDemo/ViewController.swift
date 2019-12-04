@@ -33,6 +33,9 @@ class ViewController: UIViewController {
         //web内容处理池
         config.processPool = WKProcessPool()
         
+        let userScript = WKUserScript(source: "document.cookie='token=1234';document.cookie='path=/';document.cookie='domain=http://192.168.1.5:8080'", injectionTime: .atDocumentStart, forMainFrameOnly: true)
+        userControler.addUserScript(userScript)
+        
         webView = WKWebView(frame: view.bounds, configuration: config)
         webView.navigationDelegate = self
         view.addSubview(webView)

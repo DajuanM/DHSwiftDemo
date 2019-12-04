@@ -3,7 +3,8 @@
  */
 
 function callJS() {
-    window.webkit.messageHandlers.callJS.postMessage(null)
+//    window.webkit.messageHandlers.callJS.postMessage(null)
+    document.getElementById("text").innerText = document.cookie
 }
 
 function callOC() {

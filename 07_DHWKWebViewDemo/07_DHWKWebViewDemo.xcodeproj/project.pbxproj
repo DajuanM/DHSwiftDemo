@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04CD379022B8C54B0074EC0E /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CD378F22B8C54B0074EC0E /* WebViewController.swift */; };
 		DF3D262D1F447F2C0018A439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D262C1F447F2C0018A439 /* AppDelegate.swift */; };
 		DF3D262F1F447F2C0018A439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D262E1F447F2C0018A439 /* ViewController.swift */; };
 		DF3D26321F447F2C0018A439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3D26301F447F2C0018A439 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04CD378F22B8C54B0074EC0E /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		DF3D26291F447F2C0018A439 /* 07_DHWKWebViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 07_DHWKWebViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF3D262C1F447F2C0018A439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF3D262E1F447F2C0018A439 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			children = (
 				DF3D262C1F447F2C0018A439 /* AppDelegate.swift */,
 				DF3D262E1F447F2C0018A439 /* ViewController.swift */,
+				04CD378F22B8C54B0074EC0E /* WebViewController.swift */,
 				DF3D26611F4480E40018A439 /* index.css */,
 				DF3D265F1F4480E30018A439 /* index.js */,
 				DF3D265D1F4480D90018A439 /* index.html */,
@@ -236,6 +239,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -287,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF3D262F1F447F2C0018A439 /* ViewController.swift in Sources */,
+				04CD379022B8C54B0074EC0E /* WebViewController.swift in Sources */,
 				DF3D262D1F447F2C0018A439 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,7 +449,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aiden.-7-DHWKWebViewDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -457,7 +462,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aiden.-7-DHWKWebViewDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -538,6 +543,7 @@
 				DF3D26531F447F2C0018A439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF3D26541F447F2C0018A439 /* Build configuration list for PBXNativeTarget "07_DHWKWebViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +552,7 @@
 				DF3D26561F447F2C0018A439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF3D26571F447F2C0018A439 /* Build configuration list for PBXNativeTarget "07_DHWKWebViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +561,7 @@
 				DF3D26591F447F2C0018A439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
